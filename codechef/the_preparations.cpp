@@ -117,7 +117,6 @@
 
 
 #include <bits/stdc++.h>
-#include <deque>
 using namespace std;
 
 void testcase() {
@@ -140,6 +139,8 @@ void testcase() {
   }
   for (auto it = newlist.begin(); it != newlist.end(); ++it)  cout << *it << " ";
   cout << endl;
+    cout << endl;
+
 }
 
 int main() {
