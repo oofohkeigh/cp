@@ -10,6 +10,7 @@ int main() {
   cin >> x >> y >> z;
   vector<int> v{x, y, z};
   sort(v.begin(), v.end());
+  cout <<endl;
   cout<< v[1];
 
 
