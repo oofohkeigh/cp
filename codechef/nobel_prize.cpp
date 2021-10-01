@@ -50,7 +50,8 @@ int main(){
         }
 
         if(flag == 0)   cout<<"NO"<<endl;
-        else    cout<<"YES"<<endl;
+        else    cout<<"YES";
+      cout<< endl;
     }
     return 0;
 }
