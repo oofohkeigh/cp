@@ -413,6 +413,6 @@ int main()
     getline(cin, Y);
  
     cout<<LCSLength(X, Y, X.length(), Y.length());
- 
+    cout << endl;
     return 0;
 }
