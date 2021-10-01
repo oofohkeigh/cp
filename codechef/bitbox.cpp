@@ -383,7 +383,6 @@
 
 
 #include <bits/stdc++.h>
-#include <string>
 using namespace std;
  
 // Function to find the length of the longest common subsequence of
@@ -413,6 +412,7 @@ int main()
     getline(cin, Y);
  
     cout<<LCSLength(X, Y, X.length(), Y.length());
+    cout << endl;
     cout << endl;
     return 0;
 }
