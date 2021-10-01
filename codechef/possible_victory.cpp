@@ -10,5 +10,6 @@ int main(){
     if(r-c == (20-o)*36)   cout<<"NO";
     else if(r-c < (20-o)*36)   cout<<"YES";
     else    cout<<"NO";
+ cout << endl;
     return 0;
 }
