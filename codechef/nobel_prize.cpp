@@ -15,7 +15,7 @@
 
 //         for(i=0; i<m; i++){
 //             count=0;
-//             for(j=0; j<n; j++){
+//             for(j j<n; j++){
 //                 if(i+1 == a[j]) count=1;
 //             }
 //             if(count ==0)   flag++;
