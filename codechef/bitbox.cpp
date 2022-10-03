@@ -26,7 +26,7 @@
 //         }
 //         for(j=0; j<s; j++){
 //             // if(j!=i){
-//             if(lr[j]%lr[i]==0)  f2++;
+//             if(lr[j]%lr[i]==0)  f3++;
         
 //         }
 //         if(f1==f2)  count++;
