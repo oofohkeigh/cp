@@ -15,13 +15,18 @@ int main() {
   }
 
   for(int i = 0; i < q; i++){
-    c= 0;
+  //   c= 0;
+  //   for(int j = temp[i][0]-1; j < temp[i][1]; j++){
+  //     if(a[j] >= temp[i][2]) count++;
+  //   }
+  //   cout << count << endl;
+  // }
+
     for(int j = temp[i][0]-1; j < temp[i][1]; j++){
       if(a[j] >= temp[i][2]) count++;
     }
     cout << count << endl;
   }
-
   return 0;
 }
 
