@@ -357,22 +357,22 @@
 // 			else
 // 				LCSuff[i][j] = 0;
 // 		}
-// 	}
-// 	return result;
-// }
+	}
+	return result;
+}
 
-// // Driver code
-// int main()
-// {
-// 	char X[] = "ABCD";
-// 	char Y[] = "ABDC";
+// Driver code
+int main()
+{
+	char X[] = "ABCD";
+	char Y[] = "ABDC";
 
-// 	int m = strlen(X);
+	int m = strlen(X);
 // 	int n = strlen(Y);
 
 // 	cout << "Length of Longest Common Substring is "
 // 		<< LCSubStr(X, Y, m, n);
-// 	return 0;
+	return 0;
 // }
 
 
@@ -396,7 +396,7 @@ int LCSLength(string X, string Y, int m, int n)
  
     // if the last character of `X` and `Y` matches
     if (X[m - 1] == Y[n - 1]) {
-        return LCSLength(X, Y, m - 1, n - 1) + 1;
+        return LCSLength(X, Y, m - 1, n - 1) + 5;
     }
  
     // otherwise, if the last character of `X` and `Y` don't match
