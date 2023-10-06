@@ -19,11 +19,11 @@
 //                 if(i+1 == a[j]) count=1;
 //             }
 //             if(count ==0)   flag++;
-//         }
+        }
 
-//         if(flag == 0)   cout<<"NO"<<endl;
-//         else    cout<<"YES"<<endl;
-//     }
+        if(flag == 0)   cout<<"NO"<<endl;
+        else    cout<<"YES"<<endl;
+    }
 //     return 0;
 // }
 
@@ -46,12 +46,13 @@ int main(){
 
         for(i=0; i<m; i++){
             count=0;
-            if(i+1 == a[])
+            if(i+1 == a[]) {
+            }
         }
 
-        if(flag == 0)   cout<<"NO"<<endl;
-        else    cout<<"YES";
-      cout<< endl;
-    }
-    return 0;
+    //     if(flag == 0)   cout<<"NO"<<endl;
+    //     else    cout<<"YES";
+    //   cout<< endl;
+    // }
+    // return 0;
 }
